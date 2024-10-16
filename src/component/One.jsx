@@ -26,8 +26,9 @@ function One() {
       const fetchAddress = async () => {
         const { latitude, longitude } = coords;
         const response = await axios.get(
-          `https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json`
+          `https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json&addressdetails=1`
         );
+
         console.log(response);
         if (response.data) {
           setAddress(response.data.display_name);
