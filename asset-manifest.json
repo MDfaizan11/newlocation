@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/newlocation/static/css/main.0080fd1d.css",
+    "main.js": "/newlocation/static/js/main.e60b1526.js",
+    "static/media/Screenshot_9-8-2024_173316_.jpeg": "/newlocation/static/media/Screenshot_9-8-2024_173316_.f1b81067f3dc2e14982a.jpeg",
+    "static/media/WhatsApp_Image_2024-02-23_at_11.41.06_AM-removebg-preview.png": "/newlocation/static/media/WhatsApp_Image_2024-02-23_at_11.41.06_AM-removebg-preview.2a3da73649b69b258ccb.png",
+    "static/media/WhatsApp Image 2024-02-23 at 11.41.06 AM.jpeg": "/newlocation/static/media/WhatsApp Image 2024-02-23 at 11.41.06 AM.0d3d3c6934d7d8299c5f.jpeg",
+    "index.html": "/newlocation/index.html",
+    "main.0080fd1d.css.map": "/newlocation/static/css/main.0080fd1d.css.map",
+    "main.e60b1526.js.map": "/newlocation/static/js/main.e60b1526.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0080fd1d.css",
+    "static/js/main.e60b1526.js"
+  ]
+}
