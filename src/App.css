@@ -1,0 +1,80 @@
+abbr {
+  display: none;
+}
+
+.custom-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.custom-tile[aria-disabled="true"] {
+  background-color: #e0e0e0;
+  color: #888;
+}
+
+abbr {
+  display: none;
+}
+
+.custom-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.custom-tile[aria-disabled="true"] {
+  background-color: #e0e0e0;
+  color: #888;
+}
+
+#khan {
+  color: red;
+}
+
+/* article {
+  margin: 50px auto;
+  width: 20px;
+  position: relative;
+  transition: all 1.3s ease;
+}
+article img:first-child {
+  width: 100%;
+  box-shadow: 0px 10px 15px -3px rgba(233, 233, 233, 0.5);
+  border-radius: 8px;
+  object-fit: cover;
+  transition: all 1.3s ease;
+}
+article img:last-child {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(50%);
+  opacity: 0;
+  transition: all 1.3s ease;
+}
+article:hover img:first-child {
+  transform: perspective(250px) rotateX(40deg) translateY(-5%) translateZ(0);
+}
+
+article:hover::before {
+  opacity: 1;
+}
+article:hover img:last-child {
+  opacity: 1;
+  transform: translateY(10%);
+} */
+/* App.css */
+canvas {
+  width: 100%;
+  height: 400px; /* Adjust height as needed */
+}

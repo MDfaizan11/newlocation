@@ -1,0 +1,61 @@
+.calendar-container {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .calendar {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .calendar-header {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .calendar-header button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .calendar-header h2 {
+    margin: 0;
+  }
+  
+  .calendar-body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+  }
+  
+  .calendar-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .current-date {
+    background-color: yellow;
+  }
+  
+  .active-date {
+    background-color: #fff;
+  }
+  
+  .inactive-date {
+    background-color: #f0f0f0;
+    color: #ccc;
+  }
+  
+  .booked-date {
+    background-color: #ff9999;
+  }
+  
